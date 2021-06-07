@@ -116,3 +116,31 @@ Bibliografía
 https://books.google.es/books?id=Ki2DMaeeHpUC&pg=PA78#v=onepage&q&f=false
 
 Book: Programming with java a multimedia approach (Radhika S Grover)
+
+# Como Iniciar - Requisitos
+
+Java 11 Spring Boot v2.5.0
+
+# Instalacion
+
+git clone https://github.com/teffysr/quasar.git
+
+mvn clean install
+
+# Entornos
+local	http://127.0.0.1:8080/
+
+Prod	http://18.216.191.184:8080/
+
+# Tecnologías y herramientas utilizadas
+
+Java 11 Spring Boot v2.5.0
+
+Eclipse IDE for Enterprise Java and Web Developers
+
+Amazon AWS
+
+# Autor
+
+● Roxana Stephanie Rodriguez  
+https://www.linkedin.com/in/roxana-stephanie-rodriguez-b2a8ab83/
