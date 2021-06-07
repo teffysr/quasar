@@ -1,4 +1,4 @@
-# Operation Quasar Fire
+# Operación Fuego de Quasar
 
 ![planeamiento analitico3](https://user-images.githubusercontent.com/18340584/121027072-0eea2f00-c77d-11eb-9b62-5b333266feee.png)
 
