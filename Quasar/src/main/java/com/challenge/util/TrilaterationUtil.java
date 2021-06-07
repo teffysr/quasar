@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.challenge.model.SatellitePosition;
 
-public class TrilaterarionUtil {
+public class TrilaterationUtil {
 
 	public static boolean validateCoordinates(ArrayList<Float> distances, List<SatellitePosition> satellites,
 			Double positionX, Double positionY, double toleranceError) {

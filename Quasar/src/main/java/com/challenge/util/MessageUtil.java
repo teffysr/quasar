@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import org.apache.logging.log4j.util.Strings;
 
 public class MessageUtil {
+	
 	public static boolean validateMessageContent(String[] strings) {
 		for (int i = 0; i < strings.length; i++) {
 			if (Strings.isBlank(strings[i])) {

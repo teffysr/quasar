@@ -18,7 +18,7 @@ import com.challenge.request.TopSecretSplitRequest;
 import com.challenge.response.TopSecretResponse;
 import com.challenge.service.ChallengeService;
 import com.challenge.util.MessageUtil;
-import com.challenge.util.TrilaterarionUtil;
+import com.challenge.util.TrilaterationUtil;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -95,10 +95,10 @@ public class ChallengeServiceImpl implements ChallengeService {
 			positionY.add(satellites.get(i).getPosition().getY());
 		}
 
-		coordinateY = TrilaterarionUtil.getCoordinateY(distances, positionX, positionY);
-		coordinateX = TrilaterarionUtil.getCoordinateX(distances, positionX, positionY, coordinateY);
+		coordinateY = TrilaterationUtil.getCoordinateY(distances, positionX, positionY);
+		coordinateX = TrilaterationUtil.getCoordinateX(distances, positionX, positionY, coordinateY);
 
-		if (TrilaterarionUtil.validateCoordinates(distances, satellites, coordinateX, coordinateY, TOLERANCE_ERROR)) {
+		if (TrilaterationUtil.validateCoordinates(distances, satellites, coordinateX, coordinateY, TOLERANCE_ERROR)) {
 			return new Position(coordinateX.floatValue(), coordinateY.floatValue());
 		}
 
